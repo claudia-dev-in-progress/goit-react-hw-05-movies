@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/459.4a2e077d.chunk.css","mappings":"AAAA,uBAIE,cAAU,CAHV,YAAa,CAGb,SAAU,CAFV,yDAA0D,CAC1D,eAEF","sources":["pages/Cast/Cast.module.css"],"sourcesContent":[".cast_list {\n  display: grid;\n  grid-template-columns: 100px 100px 100px 100px 100px 100px;\n  list-style: none;\n  gap: 130px;\n}\n"],"names":[],"sourceRoot":""}

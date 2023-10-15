@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/866.7bba7cac.chunk.css","mappings":"AAAA,6BACE,eACF,CAEA,4BACE,aACF","sources":["pages/Reviews/Reviews.module.css"],"sourcesContent":[".reviews_list {\n  list-style: none;\n}\n\n.review_item {\n  color: blueviolet;\n}\n"],"names":[],"sourceRoot":""}
