@@ -1,0 +1,6 @@
+.cast_list {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px;
+  list-style: none;
+  gap: 130px;
+}

@@ -9,10 +9,21 @@ const Cast = lazy(() => import("./Cast/Cast"));
 const Reviews = lazy(() => import("./Reviews/Reviews"));
 
 const StyledLink = styled(NavLink)`
-  color: black;
-
+  color: #ffb6c1;
+  background-color: #8b008b;
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-left: 150px;
+  margin-bottom: 50px;
+  border-radius: 100px;
+  margin-right: -100px;
+  margin-top: 20px;
+  font-size: 16px;
   &.active {
-    color: red;
+    color: #ff1493;
   }
 `;
 

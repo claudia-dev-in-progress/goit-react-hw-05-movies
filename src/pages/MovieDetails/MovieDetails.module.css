@@ -1,0 +1,35 @@
+.poster {
+  margin-left: 15px;
+}
+
+h2 {
+  color: #ee82ee;
+  margin-left: 15px;
+}
+
+p {
+  margin-left: 15px;
+  color: #dda0dd;
+}
+
+.overview {
+  margin-left: 15px;
+  color: #dda0dd;
+}
+.bubble {
+  color: #dda0dd;
+  border: none;
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.info_list {
+  list-style: none;
+}
+
+.info_list_item {
+  color: #da70d6;
+  border: none;
+  text-decoration: none;
+  margin-left: -10px;
+}

@@ -1,0 +1,30 @@
+.search_input {
+  margin-left: 150px;
+  background-color: pink;
+  border-color: #8b008b;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.search_button {
+  color: #ffb6c1;
+  background-color: #8b008b;
+  border: none;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  margin-left: 10px;
+  border-radius: 100px;
+  font-size: 16px;
+}
+
+.movies_list {
+  margin-top: 70px;
+  list-style: none;
+  margin-left: 120px;
+}
+
+.movie_item {
+  text-decoration: none;
+  color: #c71585;
+}

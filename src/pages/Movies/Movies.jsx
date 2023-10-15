@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { useSearchParams, Link } from "react-router-dom";
 import { searchMovies } from "../../api/api";
+import style from "./Movies.module.css";
 
 const Movies = () => {
   const [query, setQuery] = useState("");
@@ -39,13 +40,18 @@ const Movies = () => {
           value={query}
           name="query"
           onChange={handleFormChange}
+          className={style.search_input}
         ></input>
-        <button type="submit">Search</button>
+        <button className={style.search_button} type="submit">
+          Search
+        </button>
       </form>
-      <ul>
+      <ul className={style.movies_list}>
         {movies.map((movie) => (
           <li>
-            <Link to={`/movies/${movie.id}`}>{movie.title}</Link>
+            <Link className={style.movie_item} to={`/movies/${movie.id}`}>
+              {movie.title}
+            </Link>
           </li>
         ))}
       </ul>

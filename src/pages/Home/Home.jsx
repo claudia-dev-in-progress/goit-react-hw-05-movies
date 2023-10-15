@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { getTrending } from "../../api/api";
 import { Link } from "react-router-dom";
+import style from "./Home.module.css";
 
 const Home = () => {
   const [movies, setMovies] = useState([]);
@@ -15,11 +16,13 @@ const Home = () => {
 
   return (
     <>
-      <h1>Trending today</h1>
-      <ul>
+      <h1 className={style.title}>Trending today</h1>
+      <ul className={style.movies_list}>
         {movies.map((movie) => (
           <li>
-            <Link to={`/movies/${movie.id}`}>{movie.title}</Link>
+            <Link className={style.movies_item} to={`/movies/${movie.id}`}>
+              {movie.title}
+            </Link>
           </li>
         ))}
       </ul>

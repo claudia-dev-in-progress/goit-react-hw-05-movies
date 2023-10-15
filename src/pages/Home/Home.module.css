@@ -1,0 +1,13 @@
+.title {
+  margin-left: 135px;
+  color: #8b008b;
+}
+
+.movies_list {
+  list-style: none;
+}
+.movies_item {
+  color: #da70d6;
+  margin-left: 100px;
+  text-decoration: none;
+}
